@@ -67,9 +67,14 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
+
+					"dataset": {
+						"referenceName": "ds_inputds123",
+						"type": "DatasetReference"
 					"expression": {
 						"value": "@equals(activity('Get Metadata1').output.columnCount,6)",
 						"type": "Expression"
+
 					},
 					"ifFalseActivities": [
 						{
